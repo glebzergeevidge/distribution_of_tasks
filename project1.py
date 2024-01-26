@@ -2,6 +2,7 @@ file_employees = open('employees.txt', encoding='utf-8', mode='r').read().replac
 file_tasks = open('tasks.txt', encoding='utf-8', mode='r').read().replace(',', '').split('\n')
 file_plans = open('plans.txt', encoding='utf-8', mode='w+')
 
+piska = 'popka'
 
 # разделение работников по уровням
 junior_employees = []
