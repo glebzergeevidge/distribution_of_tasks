@@ -3,6 +3,7 @@ file_tasks = open('tasks.txt', encoding='utf-8', mode='r').read().replace(',', '
 file_plans = open('plans.txt', encoding='utf-8', mode='w+')
 
 piska = 'popka'
+sex = 'fuck'
 
 # разделение работников по уровням
 junior_employees = []
